@@ -4,7 +4,6 @@
 
 ### Internship KNP, Author: Sunniva McKeever, Isabella Metz, Maximilan Merzdorf
 
-
 # libraries
 library(terra)
 library(ggplot2)
@@ -16,9 +15,8 @@ library(ggthemes)
 library(ggspatial)
 library(gridExtra)
 
-
 # TODO: set wd
-setwd("C://Users/avinn/Documents/Master/Semester3/ElephantTransects/")
+setwd("")
 
 ## hyperparameters
 crs_epsg <- "epsg:32736"
@@ -229,43 +227,6 @@ NDVI_diff <- terra::mask(NDVI_diff, aoi_Kruger)
 
 LAI_diff <- LAI_stack[[236]] - LAI_stack[[1]]
 LAI_diff <- terra::mask(LAI_diff, aoi_Kruger)
-
-# # plot EVI loss and gain between 2000 and 2022
-# breaks <- c(-0.2, 0, 0.2, 0.4)
-# cols0 <- brewer.pal(n=length(breaks), name="RdYlBu")
-# cols1 <- colorRampPalette(cols0, space="rgb")(length(breaks))
-# dfm <- melt(diff, id.vars=c("x", "y"), variable.name="", value.name="value")
-# 
-# ggplot() +
-#   layer_spatial(diff) +
-#   scale_fill_gradient2(low = "red", mid = "white", high = "green", midpoint = 0, name = "Change in EVI") +
-#   geom_sf(data = aoi_EIA, fill = NA, aes(color = ""), show.legend = "polygon") +
-#   scale_color_manual(values = "darkgrey", name = "EIA") +
-#   ggtitle("Change in EVI between 2000 and 2022\nKruger National Park") +
-#   theme_bw()
-
-# # plot EIA and non EIA next to each other
-# diff_EIA <- terra::mask(diff, aoi_EIA)
-# diff_non_EIA <- terra::mask(diff, aoi_nonEIA)
-# 
-# 
-# ggplot() +
-#   layer_spatial(EVI_diff_EIA) +
-#   scale_fill_gradient2(low = "red", mid = "white", high = "green", midpoint = 0, name = "Change in EVI") +
-#   geom_sf(data = aoi_EIA, fill = NA, aes(color = ""), show.legend = "polygon") +
-#   scale_color_manual(values = "darkgrey", name = "EIA") +
-#   ggtitle("EIA") +
-#   theme_bw()
-# 
-# ggplot() +
-#   layer_spatial(EVI_diff_nonEIA) +
-#   scale_fill_gradient2(low = "red", mid = "white", high = "green", midpoint = 0, name = "Change in EVI") +
-#   geom_sf(data = aoi_EIA, fill = NA, aes(color = ""), show.legend = "polygon") +
-#   scale_color_manual(values = "darkgrey", name = "EIA") +
-#   ggtitle("Non EIA") +
-#   theme_bw()
-# 
-# grid.arrange(ggp1, ggp2, ncol = 2) 
 
 # save plots
 png(file="evi_timeseries.png",res=600)
