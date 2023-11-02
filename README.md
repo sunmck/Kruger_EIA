@@ -20,6 +20,7 @@ The MODIS Terra Monthly Global 1 km SIN Grid Vegetation Indices [1] and MODIS Te
 
 ## References
 [1] Didan, K. MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061</i>. 2021, distributed by NASA EOSDIS Land Processes Distributed Active Archive Center. Accessed 2023-10-27.
+
 [2] Myneni, R., Y. Knyazikhin, T. Park. MODIS/Terra+Aqua Leaf Area Index/FPAR 8-Day L4 Global 500m SIN Grid V061. 2021, distributed by NASA EOSDIS Land Processes Distributed Active Archive Center. Accessed 2023-10-27.
 
 
