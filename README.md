@@ -1,4 +1,4 @@
-# Analyzing Changes of Vegetation in Small Elephant Impact Areas of Kruger Nationalpark based on Satellite Imagery
+# Analyzing Changes of Vegetation in Small Elephant Impact Areas of Kruger National Park based on Satellite Imagery
 ## Introduction
 Welcome to the Kruger Git Pt. 1 of the Internship at Kruger National Park's Scientific Services. Here, we present a collection of multiple approaches 
 using different remote sensing products to analyse changes of the savanna vegetation in the national park due to the impact of the African Elephant (Loxodonta africana). The aim is to see if we can confirm changes in vegetation that have been recorded by game rangers in the field in remote sensing data.
