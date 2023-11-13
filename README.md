@@ -14,7 +14,11 @@ by debarking and knocking down specific tree species such as the Marula (Scleroc
 ### MODIS_VI_timeseries.R
 This script ....
 
-### MODIS_VI_timeseries.R
+### 2019_NoElA.py
+An exemplary Python script (for the QGIS Python console) to generate the nested area diagramms to display the difference in land cover within and outside of the EIAs for different time stamps.
+
+### TSGraphsLC.R
+This R script takes the preprocessed (QGIS) shapefiles of the land cover data and generates a time series plot to compare the development of the different, relevant, land cover classes within and outside of the EIAs.
 
 ## Data
 Our figures and the report with the detailed description of our projects can be found and downloaded in the following Google Drive folder:
