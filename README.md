@@ -24,4 +24,4 @@ This R script takes the preprocessed (QGIS) shapefiles of the land cover data an
 
 ## Data
 Our figures and the report with the detailed description of our projects can be found and downloaded in the following Google Drive folder:
-**https://drive.google.com/drive/folders/16waxJVPRmMaPnndV89alDMUIJEeBuhCJ?usp=sharing**
+**https://drive.google.com/drive/folders/16waxJVPRmMaPnndV89alDMUIJEeBuhCJ?usp=sharing** 🌳🐘
