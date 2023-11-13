@@ -11,10 +11,10 @@ curb woody thickening and therefore structuring the physical environment with po
 by debarking and knocking down specific tree species such as the Marula (Sclerocarya birrea) and Knobthorn (Acacia nigrescens) trees. Areas of high elephant impact are therefore assumed to have a stronger trend towards an opening of savanna vegetation and a declie of large trees in comparison to areas of lower elephant impact.
 
 ## Scripts
-Please download the scripts and data folder and change the directories respectively.
+Please download the scripts and data folder and change the directories accordingly.
 
 ### MODIS_VI_timeseries.R
-This script ....
+This R script calculates timeseries, trend and spatial changes for MODIS VI and LAI products. The data was previously downloaded, in this case from 2000-2022.
 
 ### 2019_NoElA.py
 An exemplary Python script (for the QGIS Python console) to generate the nested area diagramms to display the difference in land cover within and outside of the EIAs for different time stamps.
