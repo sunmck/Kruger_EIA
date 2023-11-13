@@ -11,6 +11,8 @@ curb woody thickening and therefore structuring the physical environment with po
 by debarking and knocking down specific tree species such as the Marula (Sclerocarya birrea) and Knobthorn (Acacia nigrescens) trees. Areas of high elephant impact are therefore assumed to have a stronger trend towards an opening of savanna vegetation and a declie of large trees in comparison to areas of lower elephant impact.
 
 ## Scripts
+Please download the scripts and the data folder and change the directories respectively.
+
 ### MODIS_VI_timeseries.R
 This script ....
 
